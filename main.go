@@ -21,6 +21,10 @@ func main() {
 			fmt.Println("fizz")
 			return
 		}
+		if v%5 == 0 {
+			fmt.Println("buzz")
+			return
+		}
 
 		fmt.Println(v)
 	})
