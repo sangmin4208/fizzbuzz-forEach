@@ -17,6 +17,10 @@ func main() {
 
 	nums.forEach(func(v int) {
 
+		if v%3 == 0 && v%5 == 0 {
+			fmt.Println("fizzbuzz")
+			return
+		}
 		if v%3 == 0 {
 			fmt.Println("fizz")
 			return
